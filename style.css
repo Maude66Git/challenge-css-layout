@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    Margin :0% ;
+    Padding :0%
+    }
+    
+html{
+    font-size:16px;
+    line-height: 1.3;
+    font-weight: 600;
+    background-color:#DAE1F9 ;
+}
+
+Body{
+    background-color:#DAE1F9 !important;
+    font-size:16px;
+    line-height: 1.3;
+    font-weight: 600;
+    font-family: 'Roboto', Arial, sans-serif;
+    color:black;
+    width:900px;
+}
+
+/*la nav bar*/
+
+
+.navbar {
+    display:flex;
+}
+
+a.navbar-brand{
+margin-left:139px;
+color:#0B5ED7;
+font-size: 30px;
+font-weight:700;
+}
+
+.navbar-nav{
+    margin-left:550px;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+    background-color: #FAFBFB !important;
+}
+
+
+/*le Menu de la nav Bar*/
+
+.nav-item{
+    margin-left:30px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #96A4BD !important;
+    font-size:19px !important;
+    font-weight:600 !important;
+}
+
+
+
+/*main*/
+
+#prems{
+    background-color:#FAFBFB ;
+    border-radius:10px;
+    width:1350px;
+    height: 700px;
+    border-radius:10px;
+    margin: 12% 20%;
+}
+
+
+/*le style du texte de la partie globale*/
+
+
+h1 {
+    font-size :30px;
+    font-weight:400;
+}
+
+.devkit {
+    color:#4168EB;
+}
+
+p{
+    font-size :20px;
+    font-weight:600;
+    color:#737a84;
+}
+
+/* la position de la partie globale*/
+
+.globale {
+    display:flex;
+    margin-top:150px;
+    margin-left:150px;
+}
+
+.section-txt{
+    margin-top:50px;
+}
+
+h1 {
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.image{
+    margin-left:230px;
+}
+
+.wrap{
+    margin-bottom:50px;
+}
+
+
+/*button*/
+
+.btn-primary {
+    color:white;
+    height: 50px;
+    width:165px ;
+    margin-right:10px;
+}
+
+.btn-primary2 {
+    background-color:#E1E7FC !important;
+    color:#4168EB !important;
+    height: 50px;
+}
+
+.bouton2{
+    font-weight:600;
+}
